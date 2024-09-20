@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 116, 121, 1) 36%, rgba(0, 212, 255, 1) 100%);
+    width: 100%;
+    min-height: 100vh;
+}
+
+.app {
+    background-color: #fff;
+    width: 90%;
+    max-width: 600px;
+    margin: 20px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+}
+
+#ln {
+    border: 2px solid #001e4d;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.app h1 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #001e4d;
+    padding-left: 20px;
+
+
+}
+
+.quiz {
+    padding: 20px 0px;
+}
+
+.quiz h2 {
+    font-size: 18px;
+    color: #001e4d;
+
+}
+
+.btn {
+    background: white;
+    color: #222;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid #222;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: left;
+    transition: all 0.1s;
+}
+
+.btn:hover:not([disabled]) {
+
+
+    background-color: #22222233;
+
+    transform: scale(1.05);
+}
+
+.btn:disabled {
+    cursor: no-drop;
+}
+
+#next {
+    background-color: #001e4d;
+    color: #fff;
+    font-weight: 500;
+    width: 150px;
+    border: none;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 8px;
+    cursor: pointer;
+    display: none;
+    transition: 0.2s;
+
+}
+
+#next:hover {
+    transform: scale(1.1);
+    background-color: #2f4c7a;
+}
+
+.correct {
+    background-color: rgba(24, 124, 24, 0.61);
+
+}
+
+.incorrect {
+    background-color: rgba(255, 0, 0, 0.493);
+
+}
+
+#ln2 {
+    border: 2px solid #001e4d;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+#foot2 {
+    padding: 20px 0px;
+    font-size: 18px;
+    color: #001e4d;
+}
+
+#ln3 {
+    border: 2px solid #001e4d;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+#footSOL {
+    padding: 20px 0px;
+    font-size: 18px;
+    color: #001e4d;
+}
+
+@media (max-width : 600px) {
+    img:not(.no-resize) {
+        width: 100%;
+        height: auto;
+    }
+}
